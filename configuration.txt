@@ -1,0 +1,7 @@
+Rails, Mysql, Docker (Alpine) : 
+
+1. docker run --rm -it -v "${PWD}:/app" -w /app ruby:latest sh -c "gem install rails && rails new blogapp -d mysql"
+2. buat file dockerfile 
+3. buat file docker-compose.yml
+4. docker-compose build
+5. docker-compose up
